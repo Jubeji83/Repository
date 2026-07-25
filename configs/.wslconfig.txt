@@ -1,0 +1,12 @@
+[wsl2]
+# Limite la mémoire maximale allouée à WSL 2 (ex: 4GB, 8GB, 16GB)
+memory=32GB
+
+# Limite le nombre de processeurs virtuels (par défaut, WSL utilise tous les cœurs logiques de votre CPU)
+processors=8
+
+# Taille du fichier d'échange (swap) virtuel
+swap=4GB
+
+# Permet d'accéder aux applications serveur tournant dans WSL depuis Windows (et inversement)
+localhostForwarding=true
